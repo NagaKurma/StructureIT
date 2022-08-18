@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Projects_IntelliJ/StructureIT/StructureIT_Assesment/src/test/java/journeys">
+        <classes>
+            <class name="journeys.Addcart">
+                <methods>
+                    <include name="Testscenario_5"/>
+                </methods>
+            </class>
+            <class name="journeys.Loginpage">
+            <methods>
+                <include name="Testscenario_4"/>
+            </methods>
+            </class>
+            <class name="journeys.Navigationmenu">
+                <methods>
+                    <include name="TestScenario_6"/>
+                </methods>
+            </class>
+            <class name="journeys.ReadDataFromTxtFileSearch">
+                <methods>
+                    <include name="Testscenario3"/>
+                </methods>
+            </class>
+            <class name="journeys.Search">
+                <methods>
+                    <include name="TestScenario1"/>
+                </methods>
+            </class>
+            <class name="journeys.Stringsearch">
+                <methods>
+                    <include name="TestScenario2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
